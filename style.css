@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    background-color: #bf5f82;
+    padding: 0 15px;
+}
+.icon {
+    color: #ffff;
+}
+.header-list {
+    display: flex;
+    margin-left: 50px;
+}
+.header-list a {
+    margin-right: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.header-list a:hover {
+    color: #ffff;
+}
+#bar-icon {
+    display: none
+}
+#profile {
+    display: flex;
+    padding: 50px;
+}
+.description-wrapper {
+    margin-left: 50px;
+}
+#profile img{
+    height: 200px;
+    width: 200px;
+}
+.description-wrapper p {
+    color: grey
+}
+#educations {
+    background-color:#fce4ec;
+    padding: 20px
+}
+#educations h1 {
+    text-align: center
+}
+#educations h3 {
+    text-align: center
+}
+#educations .container{
+    display: flex;
+    justify-content: center;
+    
+}
+.education{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.education p{
+    margin: 0;
+}
+#contact {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+#contact input {
+    height: 30px;
+    width: 30%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#contact textarea {
+    height: 50px;
+    padding: 5px;
+    width: 30%;
+    margin-bottom: 10px;
+}
+footer {
+    height: 80px;
+    background: #560027;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+}
+#contact button{
+    border: none;
+    background-color: #071434;
+    box-shadow: 0px 3px 2px 0px #b5b5b5;
+    width: 30%;
+    height: 30px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+#contact button:active {
+    position: relative;
+    box-shadow: none;
+    top: 1px;
+}
+#educations img {
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 2s, transform 2s;
+}
+#educations img:hover {
+    width: 150px;
+    height: 150px;
+    transform: rotate(360deg);
+}

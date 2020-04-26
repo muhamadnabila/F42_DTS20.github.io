@@ -1,0 +1,61 @@
+@media all and (max-width: 1000px) {
+    .educations h1{
+        font-size: 1.8em;
+    }
+    .educations p{
+        text-align: center;
+    }
+    .contact h1{
+        font-size: 1.8em;
+    }#contact {
+        align-items: center;
+    }
+    #contact input {
+        width: 50%;
+    }
+    #contact textarea {
+        width: 50%;
+    }
+    #contact button {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 670px) {
+    header {
+        justify-content: space-around;
+    }
+    header h1{
+        font-size: 1.8em;
+    }
+    .description-wrapper {
+        text-align: center;
+        margin-left: 0;
+    }
+    #bar-icon {
+        display: block;
+    }
+    .header-list {
+        display: none;
+    }
+    #profile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #educations .container {
+        flex-direction: column;
+    }
+    #contact {
+        align-items: center;
+    }
+    #contact input {
+        width: 100%;
+    }
+    #contact textarea {
+        width: 100%;
+    }
+    #contact button {
+        width: 100%;
+    }
+}
